@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        .especial::after {
+            content: ' [ link]';
+            font-weight: none;
+            color: darkgray;
+        }
+
+        .especial::before {
+            content: '✉ ';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/frei.cwb/" target="_blank">Perfil Instagram</a></li>
+    </ul>
+    <ul>
+        <li><a href="https://www.linkedin.com/in/murilo-freitas-958271a0/" class="especial">Perfil Linkedin</a></li>
+    </ul>
+    <ul>
+        <li><a href="https://github.com/Murilocwb">Perfil GitHub</a></li>
+    </ul>
+</body>
+</html>
