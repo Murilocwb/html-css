@@ -69,6 +69,10 @@ section {
     padding-left: 30px;
 }
 
+section > p {
+    padding-bottom: 2em;
+}
+
 section.normal {
     background-color: white;
     color: black;
@@ -102,7 +106,7 @@ section#img02 {
 footer {
     background-color: black;
     color: white;
-    font-family: var(--fonte1)
+    font-family: var(--fonte1);
     background-color: black;
     text-align: center;
     padding: 10px;
