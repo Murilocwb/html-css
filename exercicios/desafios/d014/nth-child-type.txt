@@ -1,0 +1,15 @@
+
+Para centralizar somente as tags <td> referenciadas na terceira tag <col>, você pode usar o seletor CSS nth-child(3). O seletor nth-child(3) seleciona todos os elementos filhos que são o terceiro filho de seu elemento pai. Por exemplo, o seguinte código centralizará as tags <td> na terceira coluna:
+
+<style>
+td:nth-child(3) {
+  text-align: center;
+}
+</style>
+Você também pode usar o seletor nth-of-type(3) para selecionar somente as tags <td> na terceira coluna. A diferença entre o seletor nth-child(3) e o seletor nth-of-type(3) é que o seletor nth-child(3) seleciona todos os elementos filhos que são o terceiro filho de seu elemento pai, independentemente do seu tipo, enquanto o seletor nth-of-type(3) seleciona somente os elementos filhos que são o terceiro filho de seu elemento pai e também são do mesmo tipo. Por exemplo, o seguinte código centralizará as tags <td> na terceira coluna, mas não centralizará as tags <th> na terceira coluna:
+
+<style>
+td:nth-of-type(3) {
+  text-align: center;
+}
+</style>
